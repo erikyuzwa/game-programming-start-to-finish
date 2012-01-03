@@ -1,0 +1,653 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BasicBillboard - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3372.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/BasicBillboard.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicBillboard\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3372.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3373.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicBillboard.pdb" /machine:I386 /out:"Release/BasicBillboard.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3373.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall peon::EngineCore::runEngine(void)" (__imp_?runEngine@EngineCore@peon@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::setApplication(class peon::IApplication *)" (__imp_?setApplication@EngineCore@peon@@QAE_NPAVIApplication@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::loadEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (__imp_?loadEngine@EngineCore@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V34@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore & __cdecl peon::EngineCore::getSingleton(void)" (__imp_?getSingleton@EngineCore@peon@@SAAAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::EngineCore(void)" (__imp_??0EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onMouseEvent(union SDL_Event *)" (?onMouseEvent@IApplication@peon@@UAEXPATSDL_Event@@@Z)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onKeyEvent(struct SDL_KeyboardEvent *)" (?onKeyEvent@IApplication@peon@@UAEXPAUSDL_KeyboardEvent@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::IApplication::IApplication(void)" (__imp_??0IApplication@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::IApplication::~IApplication(void)" (__imp_??1IApplication@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneFont * __thiscall peon::SceneRenderer::loadFont(int,int,int)" (__imp_?loadFont@SceneRenderer@peon@@QAEPAVSceneFont@2@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneTexture * __thiscall peon::SceneRenderer::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool)" (__imp_?loadTexture@SceneRenderer@peon@@QAEPAVSceneTexture@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N11@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+main.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+main.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2f@8
+main.obj : error LNK2001: unresolved external symbol __imp__glNormal3f@12
+main.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+main.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+main.obj : error LNK2001: unresolved external symbol __imp__glMultMatrixf@4
+main.obj : error LNK2001: unresolved external symbol __imp__glGetFloatv@8
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::SceneFont::renderText(float,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?renderText@SceneFont@peon@@QAEXMMABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+LIBC.lib(wincrt0.obj) : error LNK2001: unresolved external symbol _WinMain@16
+Release/BasicBillboard.exe : fatal error LNK1120: 22 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BasicBillboard.exe - 23 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicBillboard - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3375.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicBillboard\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3375.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3376.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdl.lib sdlmain.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicBillboard.pdb" /debug /machine:I386 /out:"Debug/BasicBillboard.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3376.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicBillboard.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: BasicBillboardAnimation - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3378.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/BasicBillboardAnimation.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicBillboardAnimation\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3378.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3379.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicBillboardAnimation.pdb" /machine:I386 /out:"Release/BasicBillboardAnimation.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3379.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall peon::EngineCore::runEngine(void)" (__imp_?runEngine@EngineCore@peon@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::setApplication(class peon::IApplication *)" (__imp_?setApplication@EngineCore@peon@@QAE_NPAVIApplication@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::loadEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (__imp_?loadEngine@EngineCore@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V34@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore & __cdecl peon::EngineCore::getSingleton(void)" (__imp_?getSingleton@EngineCore@peon@@SAAAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::EngineCore(void)" (__imp_??0EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onMouseEvent(union SDL_Event *)" (?onMouseEvent@IApplication@peon@@UAEXPATSDL_Event@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::IApplication::IApplication(void)" (__imp_??0IApplication@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::IApplication::~IApplication(void)" (__imp_??1IApplication@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::Vector3::~Vector3(void)" (__imp_??1Vector3@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::Vector3 & __thiscall peon::Vector3::operator=(class peon::Vector3 const &)" (__imp_??4Vector3@peon@@QAEAAV01@ABV01@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::Vector3::Vector3(float,float,float)" (__imp_??0Vector3@peon@@QAE@MMM@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneFont * __thiscall peon::SceneRenderer::loadFont(int,int,int)" (__imp_?loadFont@SceneRenderer@peon@@QAEPAVSceneFont@2@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneTexture * __thiscall peon::SceneRenderer::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool)" (__imp_?loadTexture@SceneRenderer@peon@@QAEPAVSceneTexture@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N11@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::SceneFont::renderText(float,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?renderText@SceneFont@peon@@QAEXMMABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+main.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+main.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+main.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+main.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2f@8
+main.obj : error LNK2001: unresolved external symbol __imp__glNormal3f@12
+main.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+main.obj : error LNK2001: unresolved external symbol __imp__glBlendFunc@8
+main.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+main.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+main.obj : error LNK2001: unresolved external symbol __imp__glColor4f@16
+main.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+main.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+main.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+LIBC.lib(wincrt0.obj) : error LNK2001: unresolved external symbol _WinMain@16
+Release/BasicBillboardAnimation.exe : fatal error LNK1120: 29 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BasicBillboardAnimation.exe - 30 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicBillboardAnimation - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP337B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicBillboardAnimation\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP337B.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP337C.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdl.lib sdlmain.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicBillboardAnimation.pdb" /debug /machine:I386 /out:"Debug/BasicBillboardAnimation.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP337C.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicBillboardAnimation.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: BasicParticle - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP337E.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/BasicParticle.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicParticle\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP337E.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP337F.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicParticle.pdb" /machine:I386 /out:"Release/BasicParticle.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP337F.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall peon::EngineCore::runEngine(void)" (__imp_?runEngine@EngineCore@peon@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::setApplication(class peon::IApplication *)" (__imp_?setApplication@EngineCore@peon@@QAE_NPAVIApplication@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::loadEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (__imp_?loadEngine@EngineCore@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V34@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore & __cdecl peon::EngineCore::getSingleton(void)" (__imp_?getSingleton@EngineCore@peon@@SAAAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::EngineCore(void)" (__imp_??0EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onMouseEvent(union SDL_Event *)" (?onMouseEvent@IApplication@peon@@UAEXPATSDL_Event@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::IApplication::IApplication(void)" (__imp_??0IApplication@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::IApplication::~IApplication(void)" (__imp_??1IApplication@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol __imp__glShadeModel@4
+main.obj : error LNK2001: unresolved external symbol __imp__glClearColor@16
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneFont * __thiscall peon::SceneRenderer::loadFont(int,int,int)" (__imp_?loadFont@SceneRenderer@peon@@QAEPAVSceneFont@2@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneTexture * __thiscall peon::SceneRenderer::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool)" (__imp_?loadTexture@SceneRenderer@peon@@QAEPAVSceneTexture@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N11@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+main.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+main.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+main.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+main.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+main.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+main.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+main.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2f@8
+main.obj : error LNK2001: unresolved external symbol __imp__glBlendFunc@8
+main.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+main.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::SceneFont::renderText(float,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?renderText@SceneFont@peon@@QAEXMMABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+LIBC.lib(wincrt0.obj) : error LNK2001: unresolved external symbol _WinMain@16
+Release/BasicParticle.exe : fatal error LNK1120: 26 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BasicParticle.exe - 27 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicParticle - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3381.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicParticle\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3381.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3382.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdl.lib sdlmain.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicParticle.pdb" /debug /machine:I386 /out:"Debug/BasicParticle.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3382.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicParticle.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: BasicPicking - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3384.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/BasicPicking.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicPicking\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3384.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3385.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicPicking.pdb" /machine:I386 /out:"Release/BasicPicking.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3385.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall peon::EngineCore::runEngine(void)" (__imp_?runEngine@EngineCore@peon@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::setApplication(class peon::IApplication *)" (__imp_?setApplication@EngineCore@peon@@QAE_NPAVIApplication@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::loadEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (__imp_?loadEngine@EngineCore@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V34@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore & __cdecl peon::EngineCore::getSingleton(void)" (__imp_?getSingleton@EngineCore@peon@@SAAAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::EngineCore(void)" (__imp_??0EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onKeyEvent(struct SDL_KeyboardEvent *)" (?onKeyEvent@IApplication@peon@@UAEXPAUSDL_KeyboardEvent@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::IApplication::IApplication(void)" (__imp_??0IApplication@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::IApplication::~IApplication(void)" (__imp_??1IApplication@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneFont * __thiscall peon::SceneRenderer::loadFont(int,int,int)" (__imp_?loadFont@SceneRenderer@peon@@QAEPAVSceneFont@2@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneTexture * __thiscall peon::SceneRenderer::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool)" (__imp_?loadTexture@SceneRenderer@peon@@QAEPAVSceneTexture@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N11@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+main.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+main.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+main.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+main.obj : error LNK2001: unresolved external symbol __imp__glLoadName@4
+main.obj : error LNK2001: unresolved external symbol __imp__glPushName@4
+main.obj : error LNK2001: unresolved external symbol __imp__glInitNames@0
+main.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::SceneFont::renderText(float,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?renderText@SceneFont@peon@@QAEXMMABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+main.obj : error LNK2001: unresolved external symbol _gluPerspective@32
+main.obj : error LNK2001: unresolved external symbol _gluPickMatrix@36
+main.obj : error LNK2001: unresolved external symbol __imp__glRenderMode@4
+main.obj : error LNK2001: unresolved external symbol __imp__glMatrixMode@4
+main.obj : error LNK2001: unresolved external symbol __imp__glGetIntegerv@8
+main.obj : error LNK2001: unresolved external symbol __imp__glSelectBuffer@8
+main.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+main.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+main.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2f@8
+main.obj : error LNK2001: unresolved external symbol __imp__glColor4f@16
+main.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+LIBC.lib(wincrt0.obj) : error LNK2001: unresolved external symbol _WinMain@16
+Release/BasicPicking.exe : fatal error LNK1120: 32 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BasicPicking.exe - 33 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicPicking - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3387.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicPicking\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3387.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3388.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdl.lib sdlmain.lib PeonMain_d.lib opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicPicking.pdb" /debug /machine:I386 /out:"Debug/BasicPicking.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3388.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicPicking.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: BasicPointSpriteParticle - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP338A.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/BasicPointSpriteParticle.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicPointSpriteParticle\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP338A.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP338B.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicPointSpriteParticle.pdb" /machine:I386 /out:"Release/BasicPointSpriteParticle.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP338B.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall peon::EngineCore::runEngine(void)" (__imp_?runEngine@EngineCore@peon@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::setApplication(class peon::IApplication *)" (__imp_?setApplication@EngineCore@peon@@QAE_NPAVIApplication@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::loadEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (__imp_?loadEngine@EngineCore@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V34@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore & __cdecl peon::EngineCore::getSingleton(void)" (__imp_?getSingleton@EngineCore@peon@@SAAAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::EngineCore(void)" (__imp_??0EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onMouseEvent(union SDL_Event *)" (?onMouseEvent@IApplication@peon@@UAEXPATSDL_Event@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::IApplication::IApplication(void)" (__imp_??0IApplication@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::IApplication::~IApplication(void)" (__imp_??1IApplication@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol _SDL_GL_GetProcAddress
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::SceneRenderer::isExtensionSupported(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?isExtensionSupported@SceneRenderer@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glShadeModel@4
+main.obj : error LNK2001: unresolved external symbol __imp__glClearColor@16
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneFont * __thiscall peon::SceneRenderer::loadFont(int,int,int)" (__imp_?loadFont@SceneRenderer@peon@@QAEPAVSceneFont@2@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneTexture * __thiscall peon::SceneRenderer::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool)" (__imp_?loadTexture@SceneRenderer@peon@@QAEPAVSceneTexture@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N11@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+main.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+main.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+main.obj : error LNK2001: unresolved external symbol __imp__glColor4f@16
+main.obj : error LNK2001: unresolved external symbol __imp__glPointSize@4
+main.obj : error LNK2001: unresolved external symbol __imp__glBlendFunc@8
+main.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+main.obj : error LNK2001: unresolved external symbol __imp__glTexEnvf@12
+main.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::SceneFont::renderText(float,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?renderText@SceneFont@peon@@QAEXMMABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+LIBC.lib(wincrt0.obj) : error LNK2001: unresolved external symbol _WinMain@16
+Release/BasicPointSpriteParticle.exe : fatal error LNK1120: 26 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BasicPointSpriteParticle.exe - 27 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicPointSpriteParticle - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP338D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicPointSpriteParticle\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP338D.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP338E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdl.lib sdlmain.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicPointSpriteParticle.pdb" /debug /machine:I386 /out:"Debug/BasicPointSpriteParticle.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP338E.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicPointSpriteParticle.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: BasicScreenshot - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3390.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/BasicScreenshot.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicScreenshot\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3390.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3391.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicScreenshot.pdb" /machine:I386 /out:"Release/BasicScreenshot.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3391.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall peon::EngineCore::runEngine(void)" (__imp_?runEngine@EngineCore@peon@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::setApplication(class peon::IApplication *)" (__imp_?setApplication@EngineCore@peon@@QAE_NPAVIApplication@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::loadEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (__imp_?loadEngine@EngineCore@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V34@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore & __cdecl peon::EngineCore::getSingleton(void)" (__imp_?getSingleton@EngineCore@peon@@SAAAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::EngineCore(void)" (__imp_??0EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onMouseEvent(union SDL_Event *)" (?onMouseEvent@IApplication@peon@@UAEXPATSDL_Event@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::IApplication::IApplication(void)" (__imp_??0IApplication@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::IApplication::~IApplication(void)" (__imp_??1IApplication@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneFont * __thiscall peon::SceneRenderer::loadFont(int,int,int)" (__imp_?loadFont@SceneRenderer@peon@@QAEPAVSceneFont@2@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneTexture * __thiscall peon::SceneRenderer::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool)" (__imp_?loadTexture@SceneRenderer@peon@@QAEPAVSceneTexture@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N11@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glPopMatrix@0
+main.obj : error LNK2001: unresolved external symbol __imp__glEnd@0
+main.obj : error LNK2001: unresolved external symbol __imp__glVertex3f@12
+main.obj : error LNK2001: unresolved external symbol __imp__glTexCoord2f@8
+main.obj : error LNK2001: unresolved external symbol __imp__glBegin@4
+main.obj : error LNK2001: unresolved external symbol __imp__glRotatef@16
+main.obj : error LNK2001: unresolved external symbol __imp__glTranslatef@12
+main.obj : error LNK2001: unresolved external symbol __imp__glLoadIdentity@0
+main.obj : error LNK2001: unresolved external symbol __imp__glPushMatrix@0
+main.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::SceneFont::renderText(float,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?renderText@SceneFont@peon@@QAEXMMABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::SceneRenderer::getScreenCapture(void)" (__imp_?getScreenCapture@SceneRenderer@peon@@QAEXXZ)
+LIBC.lib(wincrt0.obj) : error LNK2001: unresolved external symbol _WinMain@16
+Release/BasicScreenshot.exe : fatal error LNK1120: 24 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BasicScreenshot.exe - 25 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicScreenshot - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3393.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicScreenshot\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3393.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3394.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdl.lib sdlmain.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicScreenshot.pdb" /debug /machine:I386 /out:"Debug/BasicScreenshot.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3394.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicScreenshot.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: BasicShockwave - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3396.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/BasicShockwave.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicShockwave\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3396.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3397.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicShockwave.pdb" /machine:I386 /out:"Release/BasicShockwave.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3397.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall peon::EngineCore::runEngine(void)" (__imp_?runEngine@EngineCore@peon@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::setApplication(class peon::IApplication *)" (__imp_?setApplication@EngineCore@peon@@QAE_NPAVIApplication@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::loadEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (__imp_?loadEngine@EngineCore@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V34@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore & __cdecl peon::EngineCore::getSingleton(void)" (__imp_?getSingleton@EngineCore@peon@@SAAAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::EngineCore(void)" (__imp_??0EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onMouseEvent(union SDL_Event *)" (?onMouseEvent@IApplication@peon@@UAEXPATSDL_Event@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::IApplication::IApplication(void)" (__imp_??0IApplication@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::IApplication::~IApplication(void)" (__imp_??1IApplication@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::ISceneObject::onRender(void)" (?onRender@ISceneObject@peon@@UAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::ISceneObject::onUpdate(float)" (?onUpdate@ISceneObject@peon@@UAEXM@Z)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::ISceneObject::onUnload(void)" (?onUnload@ISceneObject@peon@@UAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall peon::ISceneObject::onLoad(void)" (?onLoad@ISceneObject@peon@@UAE_NXZ)
+main.obj : error LNK2001: unresolved external symbol __imp__glClearColor@16
+main.obj : error LNK2001: unresolved external symbol __imp__glHint@8
+main.obj : error LNK2001: unresolved external symbol __imp__glDepthFunc@4
+main.obj : error LNK2001: unresolved external symbol __imp__glClearDepth@8
+main.obj : error LNK2001: unresolved external symbol __imp__glShadeModel@4
+main.obj : error LNK2001: unresolved external symbol __imp__glEnable@4
+main.obj : error LNK2001: unresolved external symbol __imp__glLightfv@12
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::Vector3::~Vector3(void)" (__imp_??1Vector3@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::Vector3 & __thiscall peon::Vector3::operator=(class peon::Vector3 const &)" (__imp_??4Vector3@peon@@QAEAAV01@ABV01@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::Vector3::Vector3(float,float,float)" (__imp_??0Vector3@peon@@QAE@MMM@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::Shockwave::load(float,float,int,float,float)" (__imp_?load@Shockwave@peon@@QAE_NMMHMM@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::Shockwave::Shockwave(void)" (__imp_??0Shockwave@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneFont * __thiscall peon::SceneRenderer::loadFont(int,int,int)" (__imp_?loadFont@SceneRenderer@peon@@QAEPAVSceneFont@2@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneTexture * __thiscall peon::SceneRenderer::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool)" (__imp_?loadTexture@SceneRenderer@peon@@QAEPAVSceneTexture@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N11@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::Shockwave::~Shockwave(void)" (__imp_??1Shockwave@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::Shockwave::update(float)" (__imp_?update@Shockwave@peon@@QAEXM@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::Shockwave::render(void)" (__imp_?render@Shockwave@peon@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::SceneFont::renderText(float,float,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?renderText@SceneFont@peon@@QAEXMMABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z)
+main.obj : error LNK2001: unresolved external symbol __imp__glDisable@4
+main.obj : error LNK2001: unresolved external symbol __imp__glBindTexture@8
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::Shockwave::stop(void)" (__imp_?stop@Shockwave@peon@@QAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::Shockwave::start(void)" (__imp_?start@Shockwave@peon@@QAEXXZ)
+LIBC.lib(wincrt0.obj) : error LNK2001: unresolved external symbol _WinMain@16
+Release/BasicShockwave.exe : fatal error LNK1120: 35 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BasicShockwave.exe - 36 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicShockwave - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3399.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicShockwave\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3399.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP339A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdl.lib sdlmain.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicShockwave.pdb" /debug /machine:I386 /out:"Debug/BasicShockwave.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP339A.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicShockwave.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: BasicSkybox - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP339C.tmp" with contents
+[
+/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Release/BasicSkybox.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicSkybox\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP339C.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP339D.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicSkybox.pdb" /machine:I386 /out:"Release/BasicSkybox.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP339D.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::~EngineCore(void)" (__imp_??1EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore * __cdecl peon::EngineCore::getSingletonPtr(void)" (__imp_?getSingletonPtr@EngineCore@peon@@SAPAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: int __thiscall peon::EngineCore::runEngine(void)" (__imp_?runEngine@EngineCore@peon@@QAEHXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::setApplication(class peon::IApplication *)" (__imp_?setApplication@EngineCore@peon@@QAE_NPAVIApplication@2@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::EngineCore::loadEngine(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >)" (__imp_?loadEngine@EngineCore@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@0V34@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static class peon::EngineCore & __cdecl peon::EngineCore::getSingleton(void)" (__imp_?getSingleton@EngineCore@peon@@SAAAV12@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::EngineCore::EngineCore(void)" (__imp_??0EngineCore@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::IApplication::onKeyEvent(struct SDL_KeyboardEvent *)" (?onKeyEvent@IApplication@peon@@UAEXPAUSDL_KeyboardEvent@@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::Vector3::~Vector3(void)" (__imp_??1Vector3@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::IApplication::~IApplication(void)" (__imp_??1IApplication@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::Vector3::Vector3(float,float,float)" (__imp_??0Vector3@peon@@QAE@MMM@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::IApplication::IApplication(void)" (__imp_??0IApplication@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::ISceneObject::onRender(void)" (?onRender@ISceneObject@peon@@UAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::ISceneObject::onUpdate(float)" (?onUpdate@ISceneObject@peon@@UAEXM@Z)
+main.obj : error LNK2001: unresolved external symbol "public: virtual void __thiscall peon::ISceneObject::onUnload(void)" (?onUnload@ISceneObject@peon@@UAEXXZ)
+main.obj : error LNK2001: unresolved external symbol "public: virtual bool __thiscall peon::ISceneObject::onLoad(void)" (?onLoad@ISceneObject@peon@@UAE_NXZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall peon::Skybox::load(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &)" (__imp_?load@Skybox@peon@@QAE_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@00000@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::Vector3 & __thiscall peon::Vector3::operator=(class peon::Vector3 const &)" (__imp_??4Vector3@peon@@QAEAAV01@ABV01@@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall peon::Skybox::Skybox(void)" (__imp_??0Skybox@peon@@QAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneFont * __thiscall peon::SceneRenderer::loadFont(int,int,int)" (__imp_?loadFont@SceneRenderer@peon@@QAEPAVSceneFont@2@HHH@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::SceneTexture * __thiscall peon::SceneRenderer::loadTexture(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,bool,bool,bool)" (__imp_?loadTexture@SceneRenderer@peon@@QAEPAVSceneTexture@2@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@_N11@Z)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __thiscall peon::Skybox::~Skybox(void)" (__imp_??1Skybox@peon@@UAE@XZ)
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall peon::Skybox::render(float,float,float)" (__imp_?render@Skybox@peon@@QAEXMMM@Z)
+main.obj : error LNK2001: unresolved external symbol _gluLookAt@72
+main.obj : error LNK2001: unresolved external symbol _SDL_WarpMouse
+main.obj : error LNK2001: unresolved external symbol _SDL_GetMouseState
+main.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class peon::Vector3 __thiscall peon::Vector3::operator-(class peon::Vector3 const &)" (__imp_??GVector3@peon@@QAE?AV01@ABV01@@Z)
+LIBC.lib(wincrt0.obj) : error LNK2001: unresolved external symbol _WinMain@16
+Release/BasicSkybox.exe : fatal error LNK1120: 28 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+BasicSkybox.exe - 29 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicSkybox - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP339F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "..\..\common" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_17\BasicSkybox\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP339F.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP33A0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdl.lib sdlmain.lib PeonMain_d.lib opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicSkybox.pdb" /debug /machine:I386 /out:"Debug/BasicSkybox.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP33A0.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicSkybox.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

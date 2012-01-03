@@ -1,0 +1,54 @@
+PeonSDK - A lightweight game development sdk
+=============================================
+
+PeonSDK is meant to be a simple, fast, and nearly cross-platform and object oriented game development API. It provides
+access to windowing, graphics and audio.
+
+The current targeted platform is Win32, but the SDK is built upon cross-platform tooling making other platforms an option.
+
+The SDK is striving towards creating an easy-to-pickup 2D game development platform which allows easy access to the
+underlying components (such as OpenGL), but also creates a thin layer to help you stay productive.
+
+It is written in C++.
+
+Authors
+========
+
+Erik Yuzwa - main developer (erik@erikyuzwa.com)
+
+Download
+========
+
+you can get the latest official release here (TBD).
+you can also get the current development version from the git repository here (https://github.com/erikyuzwa/peon-sdk).
+
+
+Install
+=======
+
+TBD
+
+
+Learn
+=====
+
+There are several places to learn how to use Peon-SDK:
+* The book, "Game Programming in C++: Start to Finish", published by Charles River Media
+* TBD
+
+Contribute
+===========
+
+The Peon-SDK is released as an open-source project, and could use a bit of help on making it better, focused
+approach to developing 2D games.
+
+Feel free to fork the project on github, maintain your own version and send me pull requests periodically for 
+suggested merges of your work.
+
+
+Support
+=======
+
+I am no longer actively supporting this project, nor intend to make any real architectural revamps to it. It 
+was originally conceived and written circa 2002 for my book, "Game Programming in C++:Start to Finish" by
+Charles River Media (now Cengage Learning). This codebase is posted for archival and learning purposes.

@@ -1,0 +1,9 @@
+# Microsoft Developer Studio Generated Dependency File, included by BasicVertexArray.mak
+
+.\main.cpp : \
+	".\SampleState.h"\
+	
+
+.\SampleState.cpp : \
+	".\SampleState.h"\
+	

@@ -1,0 +1,18 @@
+09:18:36: [FileLogger] | INFO | ************ begin logfile **********
+
+09:18:37: [Renderer] | INFO | Renderer surface: (640 x 480 x 16)
+
+09:18:37: [Renderer] | INFO | Renderer surface: windowed mode
+
+09:18:37: [Renderer] | INFO | Renderer Vendor: ATI Technologies Inc.
+
+09:18:37: [Renderer] | INFO | Renderer Stats: RADEON 9800 Pro x86/MMX/3DNow!/SSE
+
+09:18:37: [Renderer] | INFO | Renderer Version: 2.0.5279 WinXP Release
+
+09:18:37: [InputEngine] | INFO | No joystick devices connected
+
+09:18:42: [EngineCore]| DEBUG | Shutting down Peon
+
+09:18:43: [FileLogger] | INFO | ************ end logfile **********
+

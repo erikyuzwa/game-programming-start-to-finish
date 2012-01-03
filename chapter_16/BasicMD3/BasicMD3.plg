@@ -1,0 +1,112 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BasicMD3 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3350.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_16\BasicMD3\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3350.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3351.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib glu32.lib SDL.lib SDLmain.lib PeonMain.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicMD3.pdb" /machine:I386 /out:"Release/BasicMD3.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3351.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+BasicMD3.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicMD3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3353.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_16\BasicMD3\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3353.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3354.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdlmain.lib sdl.lib PeonMain_d.lib opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicMD3.pdb" /debug /machine:I386 /out:"Debug/BasicMD3.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3354.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicMD3.exe - 0 error(s), 1 warning(s)
+<h3>
+--------------------Configuration: Basic3DS - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3356.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_16\Basic3DS\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3356.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3357.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib SDL.lib SDLmain.lib PeonMain.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/Basic3DS.pdb" /machine:I386 /out:"Release/Basic3DS.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3357.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2001: unresolved external symbol _gluLookAt@72
+Release/Basic3DS.exe : fatal error LNK1120: 1 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+Basic3DS.exe - 2 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: Basic3DS - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3359.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_16\Basic3DS\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP3359.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP335A.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdlmain.lib sdl.lib PeonMain_d.lib opengl32.lib glu32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Basic3DS.pdb" /debug /machine:I386 /out:"Debug/Basic3DS.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP335A.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+Basic3DS.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

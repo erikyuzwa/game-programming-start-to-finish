@@ -1,0 +1,286 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: BasicMidi - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32E5.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_11\BasicMidi\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32E5.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32E6.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib SDL.lib SDLmain.lib sdl_mixer.lib PeonMain.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicMidi.pdb" /machine:I386 /out:"Release/BasicMidi.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32E6.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+BasicMidi.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicMidi - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32E8.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_11\BasicMidi\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32E8.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32E9.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdlmain.lib sdl.lib sdl_mixer.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicMidi.pdb" /debug /machine:I386 /out:"Debug/BasicMidi.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32E9.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+BasicMidi.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicOggOpenAL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32EB.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32EB.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32EC.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib SDL.lib SDLmain.lib PeonMain.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicOggOpenAL.pdb" /machine:I386 /out:"Release/BasicOggOpenAL.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32EC.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(26) : error C2039: 'AudioNode' : is not a member of 'peon'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(26) : error C2146: syntax error : missing ';' before identifier 'm_oBGMusicNode'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(26) : error C2501: 'AudioNode' : missing storage-class or type specifiers
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(26) : error C2501: 'm_oBGMusicNode' : missing storage-class or type specifiers
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(27) : error C2039: 'AudioNode' : is not a member of 'peon'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(27) : error C2146: syntax error : missing ';' before identifier 'm_oLaserNode'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(27) : error C2501: 'AudioNode' : missing storage-class or type specifiers
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(27) : error C2501: 'm_oLaserNode' : missing storage-class or type specifiers
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(77) : error C2039: 'loadAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(77) : error C2065: 'm_oLaserNode' : undeclared identifier
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(78) : error C2039: 'loadAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(78) : error C2065: 'm_oBGMusicNode' : undeclared identifier
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(119) : error C2039: 'setAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(120) : error C2039: 'playAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(125) : error C2039: 'setAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp(126) : error C2039: 'playAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+BasicOggOpenAL.exe - 16 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicOggOpenAL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32ED.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_11\BasicOggOpenAL\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32ED.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32EE.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdlmain.lib sdl.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicOggOpenAL.pdb" /debug /machine:I386 /out:"Debug/BasicOggOpenAL.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32EE.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(26) : error C2039: 'AudioNode' : is not a member of 'peon'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(26) : error C2146: syntax error : missing ';' before identifier 'm_oBGMusicNode'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(26) : error C2501: 'AudioNode' : missing storage-class or type specifiers
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(26) : error C2501: 'm_oBGMusicNode' : missing storage-class or type specifiers
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(27) : error C2039: 'AudioNode' : is not a member of 'peon'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(27) : error C2146: syntax error : missing ';' before identifier 'm_oLaserNode'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(27) : error C2501: 'AudioNode' : missing storage-class or type specifiers
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(27) : error C2501: 'm_oLaserNode' : missing storage-class or type specifiers
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(77) : error C2039: 'loadAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(77) : error C2065: 'm_oLaserNode' : undeclared identifier
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(78) : error C2039: 'loadAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(78) : error C2065: 'm_oBGMusicNode' : undeclared identifier
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(119) : error C2039: 'setAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(120) : error C2039: 'playAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(125) : error C2039: 'setAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicoggopenal\main.cpp(126) : error C2039: 'playAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+BasicOggOpenAL.exe - 16 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicSoundOpenAL - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32EF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32EF.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib SDL.lib SDLmain.lib PeonMain.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicSoundOpenAL.pdb" /machine:I386 /out:"Release/BasicSoundOpenAL.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F0.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(21) : error C2039: 'AudioNode' : is not a member of 'peon'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(21) : error C2146: syntax error : missing ';' before identifier 'm_oAudioNode'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(21) : error C2501: 'AudioNode' : missing storage-class or type specifiers
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(21) : error C2501: 'm_oAudioNode' : missing storage-class or type specifiers
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(72) : error C2039: 'loadAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(72) : error C2065: 'm_oAudioNode' : undeclared identifier
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(76) : error C2228: left of '.sound_position' must have class/struct/union type
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(77) : error C2228: left of '.sound_position' must have class/struct/union type
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(78) : error C2228: left of '.sound_position' must have class/struct/union type
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(80) : error C2228: left of '.sound_loop' must have class/struct/union type
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(120) : error C2039: 'setAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(121) : error C2039: 'playAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp(124) : error C2039: 'stopAudioNode' : is not a member of 'AudioEngine'
+        F:\WAZOOGAMES_PROJECTS\PEONSDK\PEONMAIN\INCLUDE\AudioEngine.h(142) : see declaration of 'AudioEngine'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+BasicSoundOpenAL.exe - 13 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicSoundOpenAL - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F1.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_11\BasicSoundOpenAL\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F1.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F2.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdlmain.lib sdl.lib PeonMain_d.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicSoundOpenAL.pdb" /debug /machine:I386 /out:"Debug/BasicSoundOpenAL.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F2.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(21) : error C2039: 'AudioNode' : is not a member of 'peon'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(21) : error C2146: syntax error : missing ';' before identifier 'm_oAudioNode'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(21) : error C2501: 'AudioNode' : missing storage-class or type specifiers
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(21) : error C2501: 'm_oAudioNode' : missing storage-class or type specifiers
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(72) : error C2039: 'loadAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(72) : error C2065: 'm_oAudioNode' : undeclared identifier
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(76) : error C2228: left of '.sound_position' must have class/struct/union type
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(77) : error C2228: left of '.sound_position' must have class/struct/union type
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(78) : error C2228: left of '.sound_position' must have class/struct/union type
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(80) : error C2228: left of '.sound_loop' must have class/struct/union type
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(120) : error C2039: 'setAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(121) : error C2039: 'playAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+f:\wazoogames_projects\book_chapter_source\chapter_11\basicsoundopenal\main.cpp(124) : error C2039: 'stopAudioNode' : is not a member of 'AudioEngine'
+        f:\wazoogames_projects\peonsdk\peonmain\include\audioengine.h(142) : see declaration of 'AudioEngine'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+BasicSoundOpenAL.exe - 13 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicWAV - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F3.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Release/" /Fd"Release/" /FD /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_11\BasicWAV\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F3.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F4.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opengl32.lib SDL.lib SDLmain.lib sdl_mixer.lib PeonMain.lib /nologo /subsystem:windows /incremental:no /pdb:"Release/BasicWAV.pdb" /machine:I386 /out:"Release/BasicWAV.exe" 
+.\Release\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F4.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+BasicWAV.exe - 0 error(s), 0 warning(s)
+<h3>
+--------------------Configuration: BasicWAV - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\wazoogames_projects\book_chapter_source\chapter_11\BasicWAV\main.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F6.tmp" 
+Creating temporary file "C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F7.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib sdlmain.lib sdl.lib PeonMain_d.lib sdl_mixer.lib opengl32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/BasicWAV.pdb" /debug /machine:I386 /out:"Debug/BasicWAV.exe" /pdbtype:sept 
+.\Debug\main.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\eyuzwa\LOCALS~1\Temp\RSP32F7.tmp"
+<h3>Output Window</h3>
+Compiling...
+main.cpp
+Linking...
+MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib "msvcrt.lib" conflicts with use of other libs; use /NODEFAULTLIB:library
+
+
+
+<h3>Results</h3>
+BasicWAV.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

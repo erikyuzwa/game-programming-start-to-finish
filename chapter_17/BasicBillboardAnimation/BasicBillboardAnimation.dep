@@ -1,0 +1,83 @@
+# Microsoft Developer Studio Generated Dependency File, included by BasicBillboardAnimation.mak
+
+.\main.cpp : \
+	"..\..\..\..\dx81sdk\dxsdk\include\basetsd.h"\
+	"..\..\..\..\sdl-1.2.11\include\begin_code.h"\
+	"..\..\..\..\sdl-1.2.11\include\close_code.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_active.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_audio.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_byteorder.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_cdrom.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_config.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_config_win32.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_cpuinfo.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_endian.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_error.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_events.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_joystick.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_keyboard.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_keysym.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_loadso.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_main.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_mouse.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_mutex.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_opengl.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_platform.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_quit.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_rwops.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_stdinc.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_thread.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_timer.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_types.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_version.h"\
+	"..\..\..\..\sdl-1.2.11\include\sdl_video.h"\
+	"..\..\..\..\sdl_image-1.2.5\include\sdl_image.h"\
+	"..\..\..\..\sdl_mixer-1.2.7\include\sdl_mixer.h"\
+	"..\..\..\peonsdk\peonmain\include\aabb.h"\
+	"..\..\..\peonsdk\peonmain\include\animatedmeshfactory.h"\
+	"..\..\..\peonsdk\peonmain\include\audioengine.h"\
+	"..\..\..\peonsdk\peonmain\include\billboard.h"\
+	"..\..\..\peonsdk\peonmain\include\billboardanimation.h"\
+	"..\..\..\peonsdk\peonmain\include\boundingsphere.h"\
+	"..\..\..\peonsdk\peonmain\include\compileconfig.h"\
+	"..\..\..\peonsdk\peonmain\include\enginecore.h"\
+	"..\..\..\peonsdk\peonmain\include\filelogger.h"\
+	"..\..\..\peonsdk\peonmain\include\gl\glext.h"\
+	"..\..\..\peonsdk\peonmain\include\iactor.h"\
+	"..\..\..\peonsdk\peonmain\include\iapplication.h"\
+	"..\..\..\peonsdk\peonmain\include\iapplicationstate.h"\
+	"..\..\..\peonsdk\peonmain\include\iniconfigreader.h"\
+	"..\..\..\peonsdk\peonmain\include\inputengine.h"\
+	"..\..\..\peonsdk\peonmain\include\isceneobject.h"\
+	"..\..\..\peonsdk\peonmain\include\isingleton.h"\
+	"..\..\..\peonsdk\peonmain\include\iunknown.h"\
+	"..\..\..\peonsdk\peonmain\include\mathunit.h"\
+	"..\..\..\peonsdk\peonmain\include\matrix44.h"\
+	"..\..\..\peonsdk\peonmain\include\meshcommon.h"\
+	"..\..\..\peonsdk\peonmain\include\meshfactory.h"\
+	"..\..\..\peonsdk\peonmain\include\peondllheader.h"\
+	"..\..\..\peonsdk\peonmain\include\peonmain.h"\
+	"..\..\..\peonsdk\peonmain\include\peonstdafx.h"\
+	"..\..\..\peonsdk\peonmain\include\plane.h"\
+	"..\..\..\peonsdk\peonmain\include\primtypes.h"\
+	"..\..\..\peonsdk\peonmain\include\quaternion.h"\
+	"..\..\..\peonsdk\peonmain\include\scenecamera.h"\
+	"..\..\..\peonsdk\peonmain\include\scenefont.h"\
+	"..\..\..\peonsdk\peonmain\include\scenelight.h"\
+	"..\..\..\peonsdk\peonmain\include\scenerenderer.h"\
+	"..\..\..\peonsdk\peonmain\include\sceneroot.h"\
+	"..\..\..\peonsdk\peonmain\include\scenetexture.h"\
+	"..\..\..\peonsdk\peonmain\include\scriptengine.h"\
+	"..\..\..\peonsdk\peonmain\include\shockwave.h"\
+	"..\..\..\peonsdk\peonmain\include\skybox.h"\
+	"..\..\..\peonsdk\peonmain\include\timer.h"\
+	"..\..\..\peonsdk\peonmain\include\vector2.h"\
+	"..\..\..\peonsdk\peonmain\include\vector3.h"\
+	"..\..\..\peonsdk\peonmain\include\vector4.h"\
+	"d:\program files\microsoft platform sdk for windows xp sp2\include\guiddef.h"\
+	"d:\program files\microsoft platform sdk for windows xp sp2\include\reason.h"\
+	"d:\program files\microsoft platform sdk for windows xp sp2\include\specstrings.h"\
+	"d:\program files\microsoft platform sdk for windows xp sp2\include\stralign.h"\
+	"d:\program files\microsoft platform sdk for windows xp sp2\include\tvout.h"\
+	

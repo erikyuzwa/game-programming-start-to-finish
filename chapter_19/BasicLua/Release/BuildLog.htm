@@ -1,0 +1,43 @@
+<html>
+<head>
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=Windows-1252">
+</head>
+<body>
+<pre>
+<table width=100% bgcolor=#CFCFE5><tr> <td> <font face=arial size=+3>
+Build Log
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+<h3>------- Build started: Project: BasicLua, Configuration: Release|Win32 -------
+</h3>
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Command Lines
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Creating temporary file "e:\wazoo_book_cdrom\chapter_source\chapter_19\BasicLua\Release\RSP000009.rsp" with contents
+[
+/O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /FD /EHsc /MD /GS /Fo"Release/" /Fd"Release/vc70.pdb" /W3 /c /Wp64 /Zi /TP
+.\main.cpp
+]
+Creating command line "cl.exe @e:\wazoo_book_cdrom\chapter_source\chapter_19\BasicLua\Release\RSP000009.rsp /nologo"
+Creating temporary file "e:\wazoo_book_cdrom\chapter_source\chapter_19\BasicLua\Release\RSP00000A.rsp" with contents
+[
+/OUT:"Release/BasicLua.exe" /INCREMENTAL:NO /NOLOGO /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /MACHINE:X86 sdl.lib sdlmain.lib opengl32.lib PeonMain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
+.\Release\main.obj
+]
+Creating command line "link.exe @e:\wazoo_book_cdrom\chapter_source\chapter_19\BasicLua\Release\RSP00000A.rsp"
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Output Window
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>Compiling...
+main.cpp
+Linking...
+main.obj : error LNK2019: unresolved external symbol _lua_close referenced in function "public: virtual bool __thiscall MainApp::onLoadWorld(void)" (?onLoadWorld@MainApp@@UAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _luaopen_math referenced in function "public: virtual bool __thiscall MainApp::onLoadWorld(void)" (?onLoadWorld@MainApp@@UAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _luaopen_string referenced in function "public: virtual bool __thiscall MainApp::onLoadWorld(void)" (?onLoadWorld@MainApp@@UAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _luaopen_io referenced in function "public: virtual bool __thiscall MainApp::onLoadWorld(void)" (?onLoadWorld@MainApp@@UAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _luaopen_base referenced in function "public: virtual bool __thiscall MainApp::onLoadWorld(void)" (?onLoadWorld@MainApp@@UAE_NXZ)
+main.obj : error LNK2019: unresolved external symbol _lua_open referenced in function "public: virtual bool __thiscall MainApp::onLoadWorld(void)" (?onLoadWorld@MainApp@@UAE_NXZ)
+Release/BasicLua.exe : fatal error LNK1120: 6 unresolved externals
+</pre></table><table width=100% bgcolor=#DFDFE5><tr><td><font face=arial size=+2>
+Results
+</font></table><table width=* cellspacing=0 cellpadding=0><tr><td width=0 bgcolor=#EDEDF5>&nbsp;</td><td width=0 bgcolor=#FFFFFF>&nbsp;</td><td width=*><pre>
+Build log was saved at "file://e:\wazoo_book_cdrom\chapter_source\chapter_19\BasicLua\Release\BuildLog.htm"
+BasicLua - 7 error(s), 0 warning(s)</pre></table><table   width=100% height=20 bgcolor=#CFCFE5><tr><td><font face=arial size=+2>
+</font></table></body></html>

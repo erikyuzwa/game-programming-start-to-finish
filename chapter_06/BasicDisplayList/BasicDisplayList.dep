@@ -1,0 +1,5 @@
+# Microsoft Developer Studio Generated Dependency File, included by BasicDisplayList.mak
+
+.\main.cpp : \
+	".\SampleState.h"\
+	
